@@ -15,4 +15,5 @@ echo $_POST['my-name'];
 <?php
 )
 include "view-dooter.php";
-?>
+}
+    ?>
