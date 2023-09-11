@@ -13,7 +13,7 @@ echo $_POST['my-name'];
 ?> 
 <p> Nothing posted to the page.</p>
 <?php
-)
+} 
 include "view-dooter.php";
 }
     ?>
