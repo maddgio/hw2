@@ -14,5 +14,5 @@ echo $_GET['my-name'];
 <p> Nothing sent to the page.</p>
 <?php
 } 
-include "view-dooter.php";
+include "view-footer.php";
     ?>
