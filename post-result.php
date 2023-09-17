@@ -4,15 +4,15 @@ include "view-header.php";
 ?>
     <h1>Post Resutls</h1>
 <?php  
-if (isset($_POST['my-name'])) {
-?>
-    <p> The value sent is: <p>
-<?php
-echo $_POST['my-name'];
+echo getdisplay(); 
+include "view-dooter.php";
+
+function getdisplay() {
+    if (isset($_POST['my-name'])) {
+        return "<p> The value sent is: <p>" echo $_POST['my-name"];
 } else {
-?> 
-<p> Nothing posted to the page.</p>
+return "<p> Nothing posted to the page.</p>";
 <?php
 } 
-include "view-dooter.php";
+}
     ?>
